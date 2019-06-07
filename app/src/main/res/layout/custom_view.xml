@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/userEmailTextViewCustomView"
+        android:layout_width="406dp"
+        android:layout_height="33dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="12dp" />
+
+    <ImageView
+        android:id="@+id/PostImageCustomView"
+        android:layout_width="412dp"
+        android:layout_height="255dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/userCommentTextViewCustomView"
+        android:layout_width="406dp"
+        android:layout_height="33dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteY="328dp" />
+
+
+</LinearLayout>
